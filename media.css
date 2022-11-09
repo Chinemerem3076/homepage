@@ -1,4 +1,6 @@
-* {
+@media (max-width: 500px){
+
+  * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -8,7 +10,7 @@ body {
   font-size: 15px;
   background-color: hsl(36, 100%, 99%);
   font-family: "Inter", sans-serif;
-  width: 90%;
+  width: 100%;
   margin: auto;
   background-color: hsl(36, 100%, 99%);
 }
@@ -58,6 +60,7 @@ main {
 
 .first-section {
   display: flex;
+  flex-direction: column;
 }
 
 .first-section .left-side {
@@ -67,40 +70,43 @@ main {
 .first-section .left-side .bright-section {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .first-section .left-side .bright-section .heading {
-  width: 50%;
+  width: 100%;
 }
 
 .first-section .left-side .bright-section .heading h1 {
   width: 70%;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 2px;
-  margin: 20px 0px;
+  margin: 0px 0px;
 }
 
 .first-section .left-side .bright-section .dive-section {
-  width: 50%;
+  width: 100%;
 }
 
 .first-section .left-side .bright-section .dive-section p {
-  margin: 20px 0px 30px;
+  margin-bottom: 10px;
   color: hsl(233, 8%, 79%);
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
+  width: 70%;
 }
 
 .first-section .left-side .bright-section .dive-section button {
-  padding: 15px 30px;
+  padding: 10px 15px;
   background-color: hsl(5, 85%, 63%);
   color: hsl(36, 100%, 99%);
   border: none;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: bold;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .first-section .left-side .bright-section .dive-section button:hover {
@@ -111,9 +117,9 @@ main {
 /* First-section Right-side */
 
 .first-section .right-side {
-  width: 40%;
+  width: 100%;
   background-color: hsl(240, 100%, 5%);
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .first-section .right-side .new {
@@ -124,16 +130,17 @@ main {
 
 .first-section .right-side h1 {
   color: hsl(35, 77%, 62%);
-  margin-top: 30px;
+  margin-top: 15px;
+  font-size: 22px;
 }
 
 .first-section .right-side .hydrogen {
-  margin: 15px 0px 15px;
+  margin: 5px 0px 5px;
 }
 
 .first-section .right-side .hydrogen h2 {
   color: hsl(36, 100%, 99%);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .first-section .right-side .hydrogen h2:hover {
@@ -143,17 +150,21 @@ main {
 
 .first-section .right-side .hydrogen p {
   color: hsl(36, 100%, 99%);
-  padding: 10px 0px 10px;
+  padding: 5px 0px 5px;
   line-height: 20px;
+  font-size: 13px;
+  width: 60%
 }
 
+/* Downside section */
+  
 .first-section .right-side .downside {
-  margin: 15px 0px 15px;
+  margin: 5px 0px 5px;
 }
 
 .first-section .right-side .downside h2 {
   color: hsl(36, 100%, 99%);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .first-section .right-side .downside h2:hover {
@@ -163,17 +174,21 @@ main {
 
 .first-section .right-side .downside p {
   color: hsl(36, 100%, 99%);
-  padding: 10px 0px 10px;
+  padding: 5px 0px 5px;
   line-height: 20px;
+  font-size: 13px;
+  width: 55%
 }
 
+/*  Funding Section  */
+  
 .first-section .right-side .funding {
-  margin: 15px 0px 15px;
+  margin: 5px 0px 5px;
 }
 
 .first-section .right-side .funding h2 {
   color: hsl(36, 100%, 99%);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .first-section .right-side .funding h2:hover {
@@ -183,8 +198,10 @@ main {
 
 .first-section .right-side .funding p {
   color: hsl(36, 100%, 99%);
-  padding: 10px 0px 10px;
+  padding: 5px 0px 5px;
   line-height: 20px;
+  font-size: 12px;
+  width: 60%
 }
 
 .rule {
@@ -195,8 +212,9 @@ main {
 
 .second-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 100%;
   align-items: center;
 }
@@ -206,7 +224,7 @@ main {
 .second-section .retro {
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 100%;
 }
 
 .second-section .retro img {
@@ -244,12 +262,13 @@ main {
 .second-section .laptop {
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .second-section .laptop img {
   height: 100px;
-  width: 100px;
+  width: 98px;
 }
 
 .second-section .laptop .second {
@@ -283,12 +302,13 @@ main {
 .second-section .gaming {
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 100%;
+  margin-top: 20px
 }
 
 .second-section .gaming img {
   height: 100px;
-  width: 85px;
+  width: 98px;
 }
 
 .second-section .gaming .third {
@@ -330,5 +350,8 @@ main {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+
 }
 
