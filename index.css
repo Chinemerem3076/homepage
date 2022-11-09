@@ -1,0 +1,337 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    background-color: hsl(36, 100%, 99%);
+    font-family: 'Inter', sans-serif;
+    width: 90%;
+    margin: auto;
+    background-color: hsl(36, 100%, 99%);
+}
+
+/* Header Section */
+
+header{
+ width: 100%;
+ margin: 20px 0px ;
+ padding-right: 25px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul{
+    display: flex;
+}
+
+.header nav ul li{
+    
+    list-style: none;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: hsl(233, 8%, 79%);
+    font-weight: bold;
+    padding: 20px;
+}
+
+.header nav ul li a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+/* Main Section */
+
+main{
+    width: 100%;
+}
+
+.sections{
+    width: 100%;
+    
+}
+
+.first-section{
+    display: flex;
+}
+
+.first-section .left-side{
+    width: 100%;
+}
+
+.first-section .left-side .bright-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-section .left-side .bright-section .heading{
+    width: 50%;
+}
+
+.first-section .left-side .bright-section .heading h1{
+    width: 70%;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 20px 0px;
+}
+
+.first-section .left-side .bright-section .dive-section{
+    width: 50%;
+}
+
+.first-section .left-side .bright-section .dive-section p{
+    margin: 20px 0px 30px;
+    color: hsl(233, 8%, 79%);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.first-section .left-side .bright-section .dive-section button{
+    padding: 15px 30px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.first-section .left-side .bright-section .dive-section button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+
+/* First-section Right-side */
+
+.first-section .right-side{
+    width: 40%;
+    background-color: hsl(240, 100%, 5%);
+    margin-left: 20px;
+}
+
+.first-section .right-side .new{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.first-section .right-side h1{
+    color: hsl(35, 77%, 62%);
+    margin-top: 30px;
+}
+
+.first-section .right-side .hydrogen{
+    margin: 15px 0px 15px;
+}
+
+.first-section .right-side .hydrogen h2{
+    color: hsl(36, 100%, 99%);
+    font-size: 20px;
+}
+
+.first-section .right-side .hydrogen h2:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.first-section .right-side .hydrogen p{
+    color: hsl(36, 100%, 99%);
+    padding: 10px 0px 10px;
+    line-height: 20px;
+}
+
+.first-section .right-side .downside{
+    margin: 15px 0px 15px;
+}
+
+.first-section .right-side .downside h2{
+    color: hsl(36, 100%, 99%);
+    font-size: 20px;
+}
+
+.first-section .right-side .downside h2:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.first-section .right-side .downside p{
+    color: hsl(36, 100%, 99%);
+    padding: 10px 0px 10px;
+    line-height: 20px;
+}
+
+.first-section .right-side .funding{
+    margin: 15px 0px 15px;
+}
+
+.first-section .right-side .funding h2{
+    color: hsl(36, 100%, 99%);
+    font-size: 20px;
+}
+
+.first-section .right-side .funding h2:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.first-section .right-side .funding p{
+    color: hsl(36, 100%, 99%);
+    padding: 10px 0px 10px;
+    line-height: 20px;
+}
+
+.rule{
+    color: red;
+}
+
+/*Second Section */
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Retro Section */
+
+.second-section .retro{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.second-section .retro img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.second-section .retro .first{
+  padding: 0px 20px;
+}
+
+.second-section .retro .first h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 25px;
+}
+
+.second-section .retro .first h3{
+     color: hsl(240, 100%, 5%);
+     padding: 5px 0px 5px;
+}
+
+.second-section .retro .first h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.second-section .retro .first p{
+    color: hsl(233, 8%, 79%);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Laptop Section */
+
+.second-section .laptop{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.second-section .laptop img{
+    height: 100px;
+    width: 100px;
+}
+
+.second-section .laptop .second{
+  padding: 0px 20px;
+}
+
+.second-section .laptop .second h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 25px;
+}
+
+.second-section .laptop .second h3{
+   color: hsl(240, 100%, 5%); 
+   padding: 5px 0px 5px;
+}
+
+.second-section .laptop .second h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.second-section .laptop .second p{
+    /* padding: 5px 0px 5px; */
+    color: hsl(233, 8%, 79%);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Gaming Section */
+
+.second-section .gaming{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.second-section .gaming img{
+    height: 100px;
+    width: 85px;
+}
+
+.second-section .gaming .third{
+  width: 200px;
+  margin-left: 20px;
+}
+
+.second-section .gaming .third h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 25px;
+}
+
+.second-section .gaming .third h3{
+    color: hsl(240, 100%, 5%);
+    padding: 5px 0px 5px;
+}
+
+.second-section .gaming .third h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.second-section .gaming .third p{
+    color: hsl(233, 8%, 79%);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Attribution Section */
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
